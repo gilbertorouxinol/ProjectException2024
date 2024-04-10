@@ -34,9 +34,8 @@ public class StandardException {
             System.out.println("    Enter the table dimension:");
             dimension = anne.nextInt();
             table = new int[dimension];
-            for (int i = 0; i < table.length; i++) {
+            for (int i = 0; i < table.length; i++)
                 table[i] = i*10;
-            }
 
             // RunTimeException
             // IndexOutOfBoundsException
